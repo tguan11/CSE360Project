@@ -1,5 +1,6 @@
 package Application;
 
+
 public class Order {
 	private static int currentNum = 1;
 	private Pizza pizza;
@@ -14,6 +15,7 @@ public class Order {
 		orderNumber = currentNum;
 		currentNum++;
 	}
+
 
 	public Order() {
 		
