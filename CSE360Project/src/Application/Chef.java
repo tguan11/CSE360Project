@@ -9,6 +9,7 @@ import javax.swing.*;
 public class Chef extends JPanel {
 	private JLabel orderNUM, customer, pizzaType, pizzaTopic;
 
+
 	public Chef(JFrame frame, Order newOrder, progressPanel process) {
 		FlowLayout layout = new FlowLayout();
 		layout.setAlignment(FlowLayout.LEFT);
