@@ -59,7 +59,7 @@ public class PlaceOrder extends JPanel {
 		topic1_panel = new JPanel();
 		topic2_panel = new JPanel();
 
-		pizza_topics = new JLabel("Toppings:");
+		pizza_topics = new JLabel("Topics:");
 
 		onion = new JCheckBox("Onion", false);
 		mush = new JCheckBox("Mushroom", false);
