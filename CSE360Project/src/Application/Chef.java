@@ -8,7 +8,7 @@ import javax.swing.*;
 @SuppressWarnings("serial")
 public class Chef extends JPanel  {
 	 private JLabel orderNUM , customer , pizzaType, pizzaTop;
-	public Chef(JFrame frame, Order newOrder , progressGUI process) {
+	public Chef(JFrame frame, Order newOrder , progressPanel process) {
 		FlowLayout layout = new FlowLayout();
 		layout.setAlignment(FlowLayout.LEFT);
 		

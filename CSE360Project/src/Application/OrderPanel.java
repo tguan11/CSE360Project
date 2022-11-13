@@ -171,9 +171,9 @@ public class OrderPanel extends JPanel {
 			remove(pizza_types);
 			remove(toppings2_panel);
 
-			// transition to payment screen
-			PaymentPanel paymentpanel = new PaymentPanel(frame, newPizza);
-			frame.getContentPane().add(paymentpanel);
+			// transition to check out screen
+			CheckOutPanel checkoutpanel = new CheckOutPanel(frame, newPizza);
+			frame.getContentPane().add(checkoutpanel);
 			frame.pack();
 			frame.setVisible(true);
 		}
