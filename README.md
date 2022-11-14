@@ -17,13 +17,14 @@ Peperoni
 Vegetable
 Cheese
 Users can choose from four toppings:<br />
-Mushroom
 Onions
+Mushroom
 Olives
 Extra cheese
 Users need to login in to their ASU ID account and click “Checkout” button to finish the payment:<br />
     If the ASU ID is invalid, the order will be rejected.<br />
     if the ASU ID is valid, the order will be accepted and the status of the order will be set to ACCEPTED.<br />
+please make sure use valid ASUID.
 At this point you can do the Order Status checking:<br />
 The accepted orders will appear at this page.<br />
 The order processing agent at the SunDevil Pizza store will process the order and make the order ready for preparation. At this point, the status of the order will be set to READY to COOK.<br />
