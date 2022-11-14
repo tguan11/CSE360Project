@@ -1,5 +1,8 @@
 package Application;
 
+//GUI for the ordering app
+//ask for student id, name,etc
+
 import javax.swing.JPanel;
 import java.awt.Dimension;
 import java.awt.HeadlessException;
