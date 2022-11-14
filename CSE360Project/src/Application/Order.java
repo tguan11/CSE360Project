@@ -1,4 +1,8 @@
 package Application;
+//this is the order class
+//which gets all the info we need as a order
+//Cost,num,Type,name,etc
+
 
 public class Order {
 	private static int currentNum = 1;
