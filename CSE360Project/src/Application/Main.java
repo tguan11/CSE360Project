@@ -4,6 +4,10 @@ import java.awt.Dimension;
 import javax.swing.JFrame;
 import java.io.FileNotFoundException;
 
+
+//main method to run the pizza ordering app
+//program starts here
+
 @SuppressWarnings("serial")
 public class Main extends JFrame {
 
