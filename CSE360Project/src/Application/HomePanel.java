@@ -8,6 +8,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
+
 @SuppressWarnings("serial")
 public class HomePanel extends JPanel {
     private JButton OrderButton;
@@ -23,8 +24,8 @@ public class HomePanel extends JPanel {
     	
     	// button
 		buttonPanel = new JPanel();
-		buttonPanel.setSize(200, 100);
-		buttonPanel.setLocation(200, 100);
+		buttonPanel.setSize(200, 100); //set button size
+		buttonPanel.setLocation(200, 100); //set button Location
 
     	OrderButton = new JButton("Place new Order");
     	OrderButton.addActionListener(new ButtonListener(frame));
@@ -33,8 +34,8 @@ public class HomePanel extends JPanel {
 
 		// title
 		titlePanel = new JPanel();
-		titlePanel.setSize(200, 100);
-		titlePanel.setLocation(100, 0);
+		titlePanel.setSize(200, 100); //set title size 
+		titlePanel.setLocation(100, 0); //set title Location
 
     	title = new JLabel("Welcome to PIZZA STORE");
 		titlePanel.add(title);
@@ -55,9 +56,9 @@ public class HomePanel extends JPanel {
         	// removing the elements
             frame.remove(titlePanel);
         	frame.remove(buttonPanel);
-        	frame.remove(background);
+        	frame.remove(background);//transition to order screen
 
-        	// transition to order screen
+        	
         	PlaceOrder orderpanel = new PlaceOrder(frame);
             frame.getContentPane().add(orderpanel);
             frame.pack();
