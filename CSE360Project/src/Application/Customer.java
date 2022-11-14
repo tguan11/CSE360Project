@@ -1,4 +1,9 @@
 package Application;
+//customer class will recieve customer Info and store in database.txt
+//input database.txt to store info
+
+
+
 
 import java.io.File;
 import java.util.Scanner;
