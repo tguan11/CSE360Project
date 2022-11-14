@@ -1,5 +1,5 @@
 # CSE360Project
-# this group project is for CSE360
+# this group project is for CSE360 Project Phase III
 # database.txt store the vaild ASU ID for this project
 For ordering the Pizza, first run the project.
 Then click the place order button to place order.
