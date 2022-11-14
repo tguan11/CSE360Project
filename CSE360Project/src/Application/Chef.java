@@ -1,4 +1,9 @@
 package Application;
+//chef class
+//this is working for chef to change the status
+//Status: "RECIEVED", "PREPERING", "COOKING", "READY FOR PICK UP" 
+
+
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
