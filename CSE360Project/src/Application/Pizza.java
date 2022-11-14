@@ -1,4 +1,6 @@
 package Application;
+//pizza class sets up the pizza type and toppings
+
 
 public class Pizza {
 	// Declare variables
