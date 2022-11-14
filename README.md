@@ -9,11 +9,8 @@ For chef view screen, chef can change the status of customers' order.
 And customer could see the status changing at order page.
 The chef can change the status of the order and send an email when the pizza is finished.
 
-
-This is the entry interface for the SunDevil Pizza Store.
-  Place Order
-  
-This is the interface for entry of Place Order.
+ 
+#This is the interface for entry of Place Order.
 At this point you can do the Pizza Order:
 Users can choose from three Pizza types:
 Peperoni
