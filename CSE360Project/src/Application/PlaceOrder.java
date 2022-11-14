@@ -33,12 +33,16 @@ public class PlaceOrder extends JPanel {
 		// Delivery Type
 		pizza_types = new JLabel("Pizza Type:");
 
-		pepperoni = new JRadioButton("Pepperoni");
+		pepperoni = new JRadioButton("Pepperoni"); //Add different ingredients
 		cheese = new JRadioButton("Cheese");
 		veggie = new JRadioButton("Veggie");
 		pepperoni.setActionCommand(pizzaType = "Pepperoni");
 		cheese.setActionCommand(pizzaType = "Cheese");
 		veggie.setActionCommand(pizzaType = "Veggie");
+
+
+
+
 
 		// adding the elements
 		types = new ButtonGroup();
@@ -59,7 +63,7 @@ public class PlaceOrder extends JPanel {
 		topic1_panel = new JPanel();
 		topic2_panel = new JPanel();
 
-		pizza_topics = new JLabel("Topics:");
+		pizza_topics = new JLabel("Toppings:");
 
 		onion = new JCheckBox("Onion", false);
 		mush = new JCheckBox("Mushroom", false);
@@ -71,11 +75,12 @@ public class PlaceOrder extends JPanel {
 				int state = itemEvent.getStateChange();
 				if (state == ItemEvent.SELECTED) {
 					topics[0] = true;
-					total += 1.50;
+					total += 1.50;  
+//Price changes after adding or removing items
 				}
 				if (state == ItemEvent.DESELECTED) {
 					topics[0] = false;
-					total -= 1.50;
+					total -= 1.50;//Price changes after adding or removing items
 				}
 			}
 		};
@@ -84,11 +89,11 @@ public class PlaceOrder extends JPanel {
 				int state = itemEvent.getStateChange();
 				if (state == ItemEvent.SELECTED) {
 					topics[1] = true;
-					total += 1.50;
+					total += 1.50;//Price changes after adding or removing items
 				}
 				if (state == ItemEvent.DESELECTED) {
 					topics[1] = false;
-					total -= 1.50;
+					total -= 1.50;//Price changes after adding or removing items
 				}
 			}
 		};
@@ -97,11 +102,11 @@ public class PlaceOrder extends JPanel {
 				int state = itemEvent.getStateChange();
 				if (state == ItemEvent.SELECTED) {
 					topics[2] = true;
-					total += 1.50;
+					total += 1.50;//Price changes after adding or removing items
 				}
 				if (state == ItemEvent.DESELECTED) {
 					topics[2] = false;
-					total -= 1.50;
+					total -= 1.50;//Price changes after adding or removing items
 				}
 			}
 		};
@@ -110,11 +115,11 @@ public class PlaceOrder extends JPanel {
 				int state = itemEvent.getStateChange();
 				if (state == ItemEvent.SELECTED) {
 					topics[3] = true;
-					total += 1.50;
+					total += 1.50;//Price changes after adding or removing items
 				}
 				if (state == ItemEvent.DESELECTED) {
 					topics[3] = false;
-					total -= 1.50;
+					total -= 1.50;//Price changes after adding or removing items
 				}
 			}
 		};
@@ -155,7 +160,7 @@ public class PlaceOrder extends JPanel {
 			} else if (veggie.isSelected()) {
 				total += 15;
 				pizzaType = "Veggie";
-			}
+			} //Different types match different prices
 			Pizza newPizza = new Pizza(pizzaType, topics, total);
 
 			// remove the elements
