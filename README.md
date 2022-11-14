@@ -4,7 +4,7 @@
 For ordering the Pizza, first run the project
 Then click the place order button
 Next choose the type and topics you want click check out
-Input you name, ASU ID and email. Press processing button
+Input you name, valid ASU ID and email. Then press processing button
 For chef view screen, chef can change the status of customers' order
 And customer could see the status changing at order page
 The chef can change the status of the order and send an email when the pizza is finished.
